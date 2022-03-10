@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息登记表</title>
+</head>
+<style>
+    body{
+        background-image:url("https://gitee.com/A_Xishuai/img/raw/master/20211124img/4ps3.jpg") ;
+        background-size: 1960px 1080px;
+    }
+
+    #form{
+        width: 400px;
+        height: 300px;
+        /*background: #60ff8a;*/
+        position: relative;
+        left: 246px;
+        top: 110px;
+
+    }
+    p{
+        padding: 0px;
+        /*margin: 0px;*/
+        border: 0px;
+        display: inline;
+    }
+    #option{
+        color: #3ffdff;
+        font-size: 45px;
+    }
+    .text{
+        font-size: 30px;
+        color: #81ffad;
+        margin: 20px 10px ;
+
+    }
+    .input{
+        border: 0px;
+        height: 30px;
+        font-size: 20px;
+        background: #d1faff;
+        opacity: 0.2;
+
+    }
+    #modify{
+        font-size: 30px;
+        color: #81ffad;
+        margin: 20px 10px ;
+        background-color: transparent;
+        border: 0px;
+    }
+    #back{
+        font-size: 30px;
+        color: #81ffad;
+        margin: 20px 10px ;
+        background-color: transparent;
+        border: 0px;
+    }
+
+    #id{
+        width: 120px;
+    }
+    #name{
+        width: 100px;
+    }
+    #age{
+        width: 25px;
+    }
+    #email{
+        width: 205px;
+    }
+    #card{
+        width: 205px;
+    }
+    #telphone{
+        width:130px;
+    }
+</style>
+
+<body>
+<div id="">
+    <form action="#" method="post" autocomplete="off" id="form">
+        <h2 id="option">学生信息登记表</h2>
+        <p class="text">学号:</p><input class="input" id="id" type="text" name="id" value="21110210844"  readonly><br>
+        <p class="text">姓名:</p><input class="input" id="name" type="text"><br>
+        <p class="text">年龄:</p><input class="input" id="age" type="text"><br>
+        <p class="text">性别:</p>
+        <input type="radio" name="sex" checked="checked">男
+        <input type="radio" name="sex">女
+        <br>
+        <p class="text">电子邮箱:</p><input class="input" id="email" type="email" name="Email"><br>
+        <p class="text">身份证号:</p><input class="input" id="card" type="text" name="card"><br>
+        <p class="text">手机号:</p><input class="input" id="telphone" type="text" name="telphone"><br>
+        <input type="button" value="修改" id="modify">
+        <a href="index.html"><input type="button" value="退出" id="back"></a>
+    </form>
+</div>
+</body>
+</html>

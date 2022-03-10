@@ -1,0 +1,91 @@
+<!--
+    font-size   字号大小
+    单位
+        em  倍率
+        px  像素
+        in  英寸
+        cm  厘米
+        mm  毫米
+        pt  点
+
+    font-family 字体
+        各种字体之间必须使用英文逗号隔开
+        中文字体需要加英文引号，英文字体一般不需要加，英文字体名必须在中文字体名之前
+
+    font-weight 字体粗细
+        normal  默认值
+        bold    定义粗体字符
+        bolder  更粗
+        lighter 更细
+        100-900定义由细到粗。其中400等于normal 700等于bold
+
+    font-style  字体风格
+        normal  默认值，浏览器会显示标准字体
+        italic  浏览器会显示斜体的字体样式
+        oblique 浏览器会显示倾斜的字体样式
+
+    font    综合设置字体样式
+        选择器{font:font-style font-variant font-weight font-size/line-height font-family;}
+
+    @font-face
+        @font-face{
+            font-family:字体名称;
+            src:字体路径;
+        }
+    word-wrap
+        选择器{word-wrap:属性值;}
+        normal  只在允许的断字点换行  浏览器保持默认处理
+        break-word  在长单词或 URL 地址内部进行换行
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>font style1</title>
+
+    <style>
+        @font-face {
+            font-family: qiantu;
+            src: url("ttf/qiantu.ttf");
+        }
+
+        #one{
+            font-family: "华文彩云","宋体","黑体";
+            font-size: 32px;
+        }
+
+        #tow{
+            font-weight: 900;
+            font-size: 32px;
+            font-style: oblique;
+        }
+
+        #three{
+            font-family: qiantu;
+            word-wrap: break-word;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+        }
+
+        #four{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+        }
+    </style>
+
+</head>
+<body>
+<p>原字体无修饰ttff</p>
+<p id="one">华文彩云</p>
+<p id="tow">加宽倾斜字体</p>
+<p id="three">百度一下www.baidu.com</p>
+<p id="four">百度一下www.baidu.com</p>
+
+
+
+
+</body>
+</html>

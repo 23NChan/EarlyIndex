@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>控件</title>
+    <style>
+        body{
+            width: 1909px;
+            height: 942px;
+            background-image: url("https://gitee.com/A_Xishuai/img/raw/master/20211124img/ContainerBackground.png");
+            background-repeat: no-repeat;
+        }
+        #signin{
+            width: 330px;
+            height: 300px;
+            padding: 15px;
+            /*background: #60ff8a;*/
+            /*position: relative;*/
+            /*left: 787px;*/
+            /*top: 90px;*/
+            /*position: absolute;*/
+            /*left: 43%;*/
+            /*top: 10%;*/
+            margin: 5px auto;
+        }
+        .inputwin{
+            background: #e1d4ff;
+            padding: 5px 0px 5px 5px;
+            border: 0px;
+            height: 30px;
+            width: 246px;
+
+        }
+        .inputwin2{
+            background: #e1d4ff;
+            padding: 5px 0px 5px 5px;
+            border: 0px;
+            height: 30px;
+            width: 79px;
+
+        }
+        #yanzheng{
+            position: relative;
+            top: 16px;
+        }
+        #denglu{
+            border: 0px;
+            background: #89c1ff;
+            width: 127px;
+            height: 46px;
+            position: relative;
+            left: 40px;
+            top: 24px;
+            padding: 5px;
+            opacity: 0.6;
+            color: #913dff;
+            font-size: 20px;
+            font-weight: 900;
+        }
+        #zhuce{
+            border: 0px;
+            background: #89c1ff;
+            width: 127px;
+            height: 46px;
+            position: relative;
+            left: 50px;
+            top: 24px;
+            padding: 5px;
+            opacity: 0.6;
+            color: #913dff;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 align = center>学生信息系统</h2>
+        <form action="#" id="signin" method="get" autocomplete="off">
+            账&nbsp&nbsp&nbsp号：<input type="text" class="inputwin" name="账号" pattern="^\d{11}$" placeholder="请输入学号"><br><br>
+            密&nbsp&nbsp&nbsp码：<input type="password" class="inputwin" pattern="^[a-zA-Z0-9]{6-18}$" placeholder="请输入密码"><br><br>
+            验证码：<input type="text" class="inputwin2">
+            <img src="https://gitee.com/A_Xishuai/img/raw/master/20211124img/yjvgma.jpg" id="yanzheng">
+            <br>
+            <a href="2.html" target="_blank"><input type="button" value="登陆" id="denglu" ></a>
+            <a href="3.html" target="_blank"><input type="button" value="注册" id="zhuce" ></a>
+        </form>
+</body>
+</html>

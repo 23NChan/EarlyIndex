@@ -1,0 +1,8 @@
+body{
+    background-image: url("../images/ContainerBackground.png");
+}
+p{
+    width:150px;
+    padding: 10px;
+    background-color: #87ff59;
+}

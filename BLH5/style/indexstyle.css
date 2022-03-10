@@ -1,0 +1,49 @@
+body{
+    background-image: url("../images/ContainerBackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div#container{
+
+    width: 1920px;
+    height: 950px;
+}
+
+div#title{
+    widht:1920px;
+    height: 95px;
+}
+#title p{
+    color: #fff7ff;
+    text-align: center;
+    text-shadow: 5px 5px 5px #928eff;
+    font-size: 50px;
+}
+
+div#body{
+
+
+    width: 1920px;
+    height:855px;
+    float: left;
+}
+div#lk{
+    width: 19px;
+    height: 855px;
+    float: left;
+}
+div#HTML5{
+    width: 200px;
+    height: 855px;
+    float: left;
+}
+div#css3 {
+    width: 200px;
+    height: 855px;
+    float: left;
+}
+div#javascript {
+    width: 200px;
+    height: 855px;
+    float: left;
+}

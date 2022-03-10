@@ -1,0 +1,40 @@
+/*#HYH5,a:link,a:visited{*/
+/*    text-align: center;*/
+/*    color: #9ea72c;*/
+/*    text-decoration: none;*/
+
+/*}*/
+#TT{
+    color: #53ff59;
+    font-size: 20px;
+}
+#tool{
+    float: left;
+    margin-left: 30px;
+}
+#SD{
+    float: left;
+    margin-left: 30px;
+}
+#SDT{
+    color: #53ff59;
+    font-size: 20px;
+
+}
+#title {
+    position: relative;
+    margin: 0px;
+    left: 45%;
+    font-size:45px;
+    color: #74bae0;
+}
+
+body {
+    background: url("https://gitee.com/A_Xishuai/img/raw/master/img/ContainerBackground.png");
+}
+
+#HYH5, a:hover {
+    color: #5494a7;
+}
+
+
